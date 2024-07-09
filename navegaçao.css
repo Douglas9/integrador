@@ -1,0 +1,39 @@
+.logo{
+    height: 40px;
+    margin-right: 50px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 130%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color: bisque;
+}

@@ -1,0 +1,72 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.lateral{
+    width: 180px;
+    height: 100%;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+a{
+    color: bisque;
+    text-decoration: none;
+    margin: 7px;
+}
+a:hover{
+    background-color: black;
+}
+.content {
+    margin-left: 250px; 
+    padding: 10px;
+    flex: 1;
+    overflow-y: auto; 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: deeppink;
+}
+
+.btn-edit, .btn-delete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.btn-edit:hover{
+    color: aquamarine;
+}
+
+.btn-delete:hover {
+    color: red;
+}
